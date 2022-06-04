@@ -13,8 +13,9 @@ private:
 
 public:
     Episodio();
-    Episodio(string id, string nombre, string fecha_estreno, double cali, int temporada, int numEp);
+    Episodio(string id, string nombre, string fecha_estreno, double cali, int duracion, int temporada, int numEp);
     int getTemp();
     int getNoEp();
+    void display();
 };
 #endif

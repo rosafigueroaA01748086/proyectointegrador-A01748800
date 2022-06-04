@@ -13,14 +13,18 @@ private:
     string nombreN;
     string fecha_estrenoN;
     double caliN;
+    int duracionN;
 
 public:
     // métodos
     Video();
-    Video(string id, string nombre, string fecha_estreno, double cali);
+    Video(string id, string nombre, string fecha_estreno, double cali, int duracion);
     string getId();
     string getNombre();
     string getFechaE();
     double getCalificacion();
+    int getDuracion();
+
+    void display();
 };
 #endif

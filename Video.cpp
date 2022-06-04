@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Video.h"
 #include <string>
+
 using namespace std;
 
 Video::Video()
@@ -9,17 +10,27 @@ Video::Video()
     nombreN = "";
     fecha_estrenoN = "";
     caliN = 0;
+    duracionN = 0;
 }
-
-Video::Video(string id, string nombre, string fecha_estreno, double cali)
+Video::Video(string id, string nombre, string fecha_estreno, double cali, int duracion)
 {
     idN = id;
     nombreN = nombre;
     fecha_estrenoN = fecha_estreno;
     caliN = cali;
+    duracionN = duracion;
 }
-
 string Video::getId() { return idN; }
 string Video::getNombre() { return nombreN; }
 string Video::getFechaE() { return fecha_estrenoN; }
 double Video::getCalificacion() { return caliN; }
+int Video::getDuracion() { return duracionN; }
+
+void Video::display()
+{
+    cout << "Id: " << idN << endl;
+    cout << "Nombre: " << nombreN << endl;
+    cout << "Fecha de estreno: " << fecha_estrenoN << endl;
+    cout << "Calificación: " << caliN << endl;
+    cout << "Duración: " << duracionN << endl;
+}
