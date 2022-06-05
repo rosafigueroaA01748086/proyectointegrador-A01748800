@@ -22,5 +22,4 @@ int main()
     catalogo.agregarPelicula(pelicula1);
     catalogo.agregarSerie(serie1);
     catalogo.display();
-    serie1.display();
 }

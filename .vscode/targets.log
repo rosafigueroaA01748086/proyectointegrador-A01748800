@@ -1,0 +1,558 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-cygwin
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sat Jun  4 19:06:20 2022
+
+# Variables
+
+# environment
+ 
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 18)
+OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
+ 
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 17)
+SRC = $(wildcard $(SRCDIR)/*$(EXT))
+# makefile (from 'Makefile', line 12)
+EXT = .cpp
+# makefile (from 'Makefile', line 26)
+WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+# makefile (from 'Makefile', line 14)
+OBJDIR = ./
+# environment
+USERPROFILE = C:\Users\Admin
+# environment
+LOCAL_GIT_DIRECTORY = C:\ProgramData\Admin\GitHubDesktop\app-3.0.1\resources\app\git
+# environment
+LOCALAPPDATA = C:\Users\Admin\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-8ef3fa4f-b3a1-4111-9629-f151caee6338-sock
+# environment
+VSCODE_CWD = C:\ProgramData\Admin\GitHubDesktop\app-3.0.1
+ 
+# makefile (from 'Makefile', line 22)
+DELOBJ = $(OBJ)
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8440_CYYWZDLUPMGLYVWQ
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Admin\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /cygdrive/c/Users/Admin/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\Admin\OneDrive
+# makefile (from 'Makefile', line 19)
+DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
+# makefile
+CURDIR := /cygdrive/c/Users/Admin/Documents/GitHub/proyectointegrador-A01748800
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+!C: = c:\Users\Admin\Documents\GitHub\proyectointegrador-A01748800
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'main.d', line 1)
+ 
+MAKEFILE_LIST := Makefile Catalogo.d Episodio.d Pelicula.d Serie.d Video.d main.d
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 8440
+# makefile (from 'Makefile', line 11)
+APPNAME = myapp 
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+__PSLOCKDOWNPOLICY = 0
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\Admin\OneDrive
+# default
+MAKE_HOST := x86_64-pc-cygwin
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\Admin
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+ 
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/bin:/cygdrive/d/bin:/usr/bin:/cygdrive/c/Program Files/Wolfram Research/WolframScript:/cygdrive/c/Users/Admin/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/Admin/AppData/Local/Programs/Microsoft VS Code/bin:/cygdrive/c/Users/Admin/AppData/Local/GitHubDesktop/bin:/cygdrive/c/ProgramData/Admin/GitHubDesktop/bin
+# environment
+COMPUTERNAME = DESKTOP-TTGTCG4
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+LOGONSERVER = \\DESKTOP-TTGTCG4
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Admin
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-TTGTCG4
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
+# makefile (from 'Makefile', line 25)
+EXE = .exe
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 21)
+RM = rm
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 8)
+ 
+LDFLAGS = 
+# makefile (from 'Makefile', line 24)
+DEL = del
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-TTGTCG4
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Admin\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/Admin
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /cygdrive/c/Users/Admin/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1fa9692ca970862365dc969f915639a2-1.67.2-main-sock
+# environment
+TERM = xterm-256color
+# makefile (from 'Makefile', line 13)
+SRCDIR = ./
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 7)
+CXXFLAGS = -g -std=c++11 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+ 
+PROCESSOR_REVISION = 8e09
+# makefile (from 'Makefile', line 6)
+CC = g++
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=117/1024=11%, Rehash=0, Collisions=16/184=9%
+
+ 
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# ./ (device 1321028518, inode 15199648742885148): 30 files, no impossibilities.
+# . (device 1321028518, inode 15199648742885148): 30 files, no impossibilities.
+
+# 60 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.d: %.cpp
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+%.o: %.cpp
+#  recipe to execute (from 'Makefile', line 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+cleandepw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	$(DEL) $(DEP)
+
+# Not a target:
+Catalogo.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8290302
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Pelicula.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8401609
+#  File has been updated.
+#  Successfully updated.
+
+cleandep:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	$(RM) $(DEP)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8384017
+#  File has been updated.
+#  Successfully updated.
+
+Pelicula.d: Pelicula.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Pelicula'
+#  Last modified 2022-06-04 19:06:17.1655743
+ 
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+Episodio.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.837404
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 53):
+	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
+
+# Not a target:
+Serie.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8442255
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Video.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8455205
+#  File has been updated.
+#  Successfully updated.
+
+Catalogo.d: Catalogo.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Catalogo'
+#  Last modified 2022-06-04 19:06:19.2149117
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+Serie.d: Serie.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Serie'
+#  Last modified 2022-06-04 19:06:16.2976456
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+Episodio.cpp:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-04 19:05:54.8302843
+#  File has been updated.
+#  Successfully updated.
+
+Catalogo.o: Catalogo.cpp Catalogo.cpp Catalogo.h Serie.h Episodio.h Video.h Pelicula.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Catalogo'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := Catalogo.o
+# automatic
+# * := Catalogo
+# automatic
+# < := Catalogo.cpp
+# automatic
+# + := Catalogo.cpp Catalogo.cpp Catalogo.h Serie.h Episodio.h Video.h Pelicula.h
+# automatic
+# % := 
+# automatic
+ 
+# ^ := Catalogo.cpp Catalogo.h Serie.h Episodio.h Video.h Pelicula.h
+# automatic
+# ? := Catalogo.cpp Catalogo.h Serie.h Episodio.h Video.h Pelicula.h
+# automatic
+# | := 
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'Makefile', line 47):
+	$(CC) $(CXXFLAGS) -o $@ -c $<
+
+Video.d: Video.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Video'
+#  Last modified 2022-06-04 19:06:15.3192938
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: myapp
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+Serie.o: Serie.cpp Serie.h Episodio.h Video.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8470737
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Pelicula.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8391786
+#  File has been updated.
+#  Successfully updated.
+
+Pelicula.o: Pelicula.cpp Pelicula.h Video.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+main.o: main.cpp Video.h Pelicula.h Episodio.h Serie.h Catalogo.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+cleanw:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 64):
+	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
+
+Episodio.d: Episodio.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'Episodio'
+#  Last modified 2022-06-04 19:06:18.0338226
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+Serie.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8428276
+#  File has been updated.
+#  Successfully updated.
+
+main.d: main.cpp
+#  Implicit rule search has been done.
+ 
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-06-04 19:06:14.4206123
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+Video.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8461997
+#  File has been updated.
+#  Successfully updated.
+
+Video.o: Video.cpp Video.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+myapp: Catalogo.o Episodio.o Pelicula.o Serie.o Video.o main.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-04 19:05:54.8470737
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'Makefile', line 36):
+	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
+# Not a target:
+Catalogo.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 19:05:54.8300272
+#  File has been updated.
+#  Successfully updated.
+
+Episodio.o: Episodio.cpp Episodio.h Video.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean cleandep cleanw cleandepw
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=33/1024=3%, Rehash=0, Collisions=2/119=2%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 55 / storage = 514 B / avg = 9 B
+# current buf: size = 8162 B / used = 514 B / count = 55 / avg = 9 B
+
+# strcache performance: lookups = 143 / hit rate = 61%
+# hash-table stats:
+# Load=55/8192=1%, Rehash=0, Collisions=0/143=0%
+# Finished Make data base on Sat Jun  4 19:06:20 2022
+
+ 

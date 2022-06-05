@@ -1,0 +1,16 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/cygdrive/c/Users/Admin/Documents/GitHub/proyectointegrador-A01748800'
+ 
+g++ -g -std=c++11  -o Catalogo.o -c Catalogo.cpp
+g++ -g -std=c++11  -o Episodio.o -c Episodio.cpp
+g++ -g -std=c++11  -o Pelicula.o -c Pelicula.cpp
+ 
+g++ -g -std=c++11  -o Serie.o -c Serie.cpp
+ 
+g++ -g -std=c++11  -o Video.o -c Video.cpp
+ 
+g++ -g -std=c++11  -o main.o -c main.cpp
+ 
+g++ -g -std=c++11  -o myapp Catalogo.o Episodio.o Pelicula.o Serie.o Video.o main.o 
+make: Leaving directory '/cygdrive/c/Users/Admin/Documents/GitHub/proyectointegrador-A01748800'
+ 
